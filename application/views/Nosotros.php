@@ -1,14 +1,13 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/nosotros.css" />
-    <link rel="stylesheet" type="text/css" href="css/materialize.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>Plantilla/css/Materialize.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>Plantilla/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>Plantilla/css/nosotros.css" />
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="<?= base_url() ?>Plantilla/js/materialize.js"></script>
+    <script type="text/javascript" src="<?= base_url() ?>Plantilla/js/materialize.min.js"></script>
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -30,7 +29,7 @@
         <nav>
             <div class="nav-wrapper black">
                 <a href="#" class="brand-logo">
-                    <img id="logo" src="img/Logo_2.png">
+                    <img id="logo" src="<?= base_url() ?>Plantilla/img/Logo_2.png">
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="index.html">Inicio</a></li>
@@ -48,42 +47,62 @@
 
     <div class="carrusel">
 
-        <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="img/carousel.jpg"></a>
-            <a class="carousel-item" href="#two!"><img src="img/carousel2.Jpg"></a>
-            <a class="carousel-item" href="#three!"><img src="img/carousel3.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="img/carousel4.jpg"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel5.jpg"></a>
-        </div>
+    <div class="carousel carousel-slider">
+
+        <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_1.jpeg"></a>
+        <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_2.jpeg"></a>
+        <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_3.jpeg"></a>
+        <a class="carousel-item" href="#two!"><img src="<?= base_url() ?>Plantilla/img/carrusel_4.jpeg"></a>
+        <a class="carousel-item" href="#two!"><img src="<?= base_url() ?>Plantilla/img/carrusel_5.jpeg"></a>
+
+    </div>
 
     </div>
     <div class="bodyContent">
 
 
         <ul id="tabs-swipe-demo" class="tabs">
+
             <li class="tab col s3"><a class="active" href="#test-swipe-1">Quienes Somos</a></li>
             <li class="tab col s3"><a href="#test-swipe-2">Objetivo Comercial</a></li>
             <li class="tab col s3"><a href="#test-swipe-3">Misión</a></li>
             <li class="tab col s3"><a href="#test-swipe-4">Visión</a></li>
-            <li class="tab col s3"><a href="#test-swipe-5">La Voz de Nuestra Colección</a></li>
+
         </ul>
+
+
         <div id="test-swipe-1" class="col s12 ">
             <div class="row">
+
                 <div class="col s6"><br><br>
-                    <p class="QN"> Grupo Empresarial Squat es una empresa mexicana especializada en la comercialización de uniformes y diseño de imagen corporativa. Con casi dos décadas en el mercado, desde 2006 nos hemos encargado de distribuir productos con los estándares
-                        de la más alta calidad. </p>
+                
+                    <div></div>
+                    <div >
+                        <p class="QN"> Grupo Empresarial Squat es una empresa mexicana especializada en la comercialización de uniformes y diseño de imagen corporativa. Con casi dos décadas en el mercado, desde 2006 nos hemos encargado de distribuir productos con los estándares
+                            de la más alta calidad. </p>
+                    </div>
+                    <div></div>
 
                 </div>
+
                 <div class="col s6">
-                    <img class="QNI" src="img/QuienesSomos.jpg">
+
+                <div></div>
+                    <div >
+                         <img class="QNI" src="<?= base_url() ?>Plantilla/img/QuienesSomos.jpg">
+                    </div>
+                    <div></div>
+
+                   
                 </div>
             </div>
         </div>
 
         <div id="test-swipe-2" class="col s12 ">
             <div class="row">
+
                 <div class="col s6">
-                    <img class="QNI" src="img/ExtensoCatalogo.jpg">
+                    <img class="QNI" src="<?= base_url() ?>Plantilla/img/ExtensoCatalogo.jpg">
                 </div>
                 <div class="col s6">
                     <p class="OC"> Compra-venta; distribución, importación y exportación de todo tipo de ropa relacionado a boutique y uniformes ejecutivos e industriales así como sus accesorios.</p>
@@ -94,19 +113,21 @@
 
         <div id="test-swipe-3" class="col s12 ">
             <div class="row">
+
                 <div class="col s6">
                     <p class="Mision">Ser empresa líder reconocida por su innovación, calidad y servicio a nivel nacional, promoviéndose siempre como una oportunidad para asociarse con cualquier industria</p>
                 </div>
                 <div class="col s6">
-                    <img class="QNI" src="img/Misión.jpg">
+                    <img class="QNI" src="<?= base_url() ?>Plantilla/img/Misión.jpg">
                 </div>
             </div>
         </div>
 
         <div id="test-swipe-4" class="col s12 ">
             <div class="row">
+
                 <div class="col s6">
-                    <img class="QNI" src="img/Visión.jpg">
+                    <img class="QNI" src="<?= base_url() ?>Plantilla/img/Visión.jpg">
                 </div>
                 <div class="col s6">
                     <p class="Vision">Comercializar prendas que ofrezcan a nuestros clientes una experiencia única de comodidad, confianza y satisfacción; con las mejores materias textiles y con la tecnología adecuada.</p>
@@ -114,18 +135,6 @@
 
             </div>
 
-            <div id="test-swipe-5" class="col s12 ">
-                <div class="row">
-                    <div class="col s6">
-                        <p class="LVNC"><u>Fresca y liviana.</u><br>Diversos muestrarios de telas (climas cálidos o templados) que se pueden unificar. <br><br><u>Moderna y práctica.</u><br>Diseños básicos y especiales a su elección (contrastes de telas, tipo de botón,
-                            pespuntes, etc.) <br><br><u>Elegante y única.</u><br>Bordados sublimados y personalizados.</p>
-                    </div>
-                    <div class="col s6">
-                        <img class="QNI" src="img/Telas.jpg">
-                    </div>
-
-                </div>
-            </div>
         </div>
 
     </div>

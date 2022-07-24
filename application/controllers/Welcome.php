@@ -7,12 +7,8 @@ class Welcome extends CI_Controller {
 	public function index()
 	{ 
 		//print_r($this->db);
-		$this->load->view('Home');
-	}
-
-	public function nosotros()
-	{ 
-		//print_r($this->db);
 		$this->load->view('Nosotros');
 	}
+
 }
+?>

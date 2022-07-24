@@ -1,12 +1,12 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/materialize.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="<?= base_url() ?>Plantilla/css/Materialize.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>Plantilla/css/index.css" />
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="<?= base_url() ?>Plantilla/js/materialize.js"></script>
+    <script type="text/javascript" src="<?= base_url() ?>Plantilla/js/materialize.min.js"></script>
     <!--link rel="stylesheet" type="text/javascript" href="js/index.js"-->
 
     <!--Import Google Icon Font-->
@@ -29,7 +29,7 @@
         <nav>
             <div class="nav-wrapper black">
                 <a href="index.html" class="brand-logo">
-                    <img id="logo" src="img/Logo.jpg">
+                    <img id="logo" src="<?= base_url() ?>Plantilla/img/Logo.jpg">
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="index.html">Inicio</a></li>
@@ -49,13 +49,14 @@
 
 
         <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="img/carousel.jpg"></a>
-            <a class="carousel-item" href="#two!"><img src="img/carousel2.Jpg"></a>
-            <a class="carousel-item" href="#three!"><img src="img/carousel3.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="img/carousel4.jpg"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel5.jpg"></a>
-        </div>
 
+            <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_1.jpeg"></a>
+            <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_2.jpeg"></a>
+            <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_3.jpeg"></a>
+            <a class="carousel-item" href="#two!"><img src="<?= base_url() ?>Plantilla/img/carrusel_4prueba2.jpeg"></a>
+            <a class="carousel-item" href="#two!"><img src="<?= base_url() ?>Plantilla/img/carrusel_5.jpeg"></a>
+
+        </div>
     </div>
 
     <div class="Album">
@@ -81,7 +82,7 @@
                     <div class="col s4">
                         <div class="row">
                             <div class="col s12">
-                                <img id="album" src="img/chef_h.jpeg" alt=" ">
+                                <img id="album" src="<?= base_url() ?>Plantilla/img/chef_h.jpeg" alt=" ">
                             </div>
                             <div class="col s12">
                                 <a class="waves-effect waves-light btn modal-trigger" href="#modal">Modal</a>
@@ -104,7 +105,7 @@
                     <div class="col s4">
                         <div class="row">
                             <div class="col s12">
-                                <img id="album" src="img/U_IndustrialH.jpeg" alt=" ">
+                                <img id="album" src="<?= base_url() ?>Plantilla/img/U_IndustrialH.jpeg" alt=" ">
                             </div>
                             <div class="col s12">
                                 <button class="btn " id="BtnSend " type="submit ">Descripción</button>
@@ -116,7 +117,7 @@
                     <div class="col s4">
                         <div class="row">
                             <div class="col s12">
-                                <img id="album" src="img/chef_h.jpeg" alt=" ">
+                                <img id="album" src="<?= base_url() ?>Plantilla/img/chef_h.jpeg" alt=" ">
                             </div>
                             <div class="col s12">
                                 <button class="btn " id="BtnSend " type="submit ">Descripción</button>
@@ -129,7 +130,7 @@
                 <div class="row ">
 
                     <div class="col s3 ">
-                        <img id="album" src="img/chef_h.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/chef_h.jpeg" alt=" ">
                     </div>
                     <div class="col s3 ">
 
@@ -143,7 +144,7 @@
 
                     </div>
                     <div class="col s3 ">
-                        <img id="album" src="img/U_IndustrialH.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/U_IndustrialH.jpeg" alt=" ">
                     </div>
                     <div class="col s3 ">
 
@@ -169,7 +170,7 @@
                 </div>
                 <div class="row ">
                     <div class="col s3 ">
-                        <img id="album" src="img/WhatsApp Image 2022-06-16 at 1.29.39 PM.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/WhatsApp Image 2022-06-16 at 1.29.39 PM.jpeg" alt=" ">
 
                         <a id="boton" class="btn-floating"><i class="material-icons">add</i></a>
 
@@ -188,7 +189,7 @@
                     </div>
 
                     <div class="col s3 ">
-                        <img id="album" src="img/WhatsApp Image 2022-06-16 at 1.29.40 PM.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/WhatsApp Image 2022-06-16 at 1.29.40 PM.jpeg" alt=" ">
                     </div>
 
                     <div class="col s3 ">
@@ -207,7 +208,7 @@
 
                 <div class="row ">
                     <div class="col s3 ">
-                        <img id="album" src="img/vertical.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/vertical.jpeg" alt=" ">
                     </div>
 
                     <div class="col s3 ">
@@ -223,7 +224,7 @@
                     </div>
 
                     <div class="col s3 ">
-                        <img id="album" src="img/vertical_2.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/vertical_2.jpeg" alt=" ">
                     </div>
 
                     <div class="col s3 ">
@@ -263,7 +264,7 @@
                 <div class="row ">
 
                     <div class="col s3 ">
-                        <img id="album" src="img/chef_h.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/chef_h.jpeg" alt=" ">
                     </div>
                     <div class="col s3 ">
 
@@ -277,7 +278,7 @@
 
                     </div>
                     <div class="col s3 ">
-                        <img id="album" src="img/U_IndustrialH.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/U_IndustrialH.jpeg" alt=" ">
                     </div>
                     <div class="col s3 ">
 
@@ -304,7 +305,7 @@
 
                 <div class="row ">
                     <div class="col s3 ">
-                        <img id="album" src="img/WhatsApp Image 2022-06-16 at 1.29.39 PM.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/WhatsApp Image 2022-06-16 at 1.29.39 PM.jpeg" alt=" ">
                     </div>
 
                     <div class="col s3 ">
@@ -320,7 +321,7 @@
                     </div>
 
                     <div class="col s3 ">
-                        <img id="album" src="img/WhatsApp Image 2022-06-16 at 1.29.40 PM.jpeg" alt=" ">
+                        <img id="album" src="<?= base_url() ?>Plantilla/img/WhatsApp Image 2022-06-16 at 1.29.40 PM.jpeg" alt=" ">
                     </div>
 
                     <div class="col s3 ">

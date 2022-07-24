@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_1.jpeg"></a>
             <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_2.jpeg"></a>
             <a class="carousel-item" href="#one!"><img src="<?= base_url() ?>Plantilla/img/carrusel_3.jpeg"></a>
-            <a class="carousel-item" href="#two!"><img src="<?= base_url() ?>Plantilla/img/carrusel_4prueba2.jpeg"></a>
+            <a class="carousel-item" href="#two!"><img src="<?= base_url() ?>Plantilla/img/carrusel_4.jpeg"></a>
             <a class="carousel-item" href="#two!"><img src="<?= base_url() ?>Plantilla/img/carrusel_5.jpeg"></a>
 
         </div>
@@ -91,9 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         y modelos, nuestros profesionales en ventas y diseño siempre están dispuestos para asesorar.</p>
             </div>  
                
-            <div>
-                <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/ADE.jpeg">
-            </div>
+
             
         </div>
 
@@ -107,9 +105,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                    Nuestro formato para toma de medidas cuenta con las especificaciones necesarias para que las prendas se elaboren a la 
                    medida del Cliente.</p>
             </div>
-            <div>
-                <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/TDT.jpeg">
-            </div>
+            
         </div>
 
 
@@ -121,29 +117,62 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p>En GESQUAT siempre buscamos que la venta y la postventa cumplan con la satisfacción de nuestros 
                     Clientes,  logrando generar fidelidad a largo plazo.</p>
             </div>
+            
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col s4">
+            <div>
+                <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/ADE.jpeg">
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div>
+                <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/TDT.jpeg">
+            </div>
+        </div>
+
+        <div class="col s4">
             <div>
                 <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/PV.jpeg">
             </div>
         </div>
+
     </div>
 
 
     <div class="PC">
         <div>
-            <p class="textoPC"> <strong> Algunos de los Clientes con los que hemos trabajado</strong></p>
+            <p class="textoPC"> <strong> TU MEJOR INVERSIÓN COMIENZA AQUÍ</strong></p>
         </div>
     </div>
 
-    <div class="section container">
-        <div class="row">
-            <div class="col s12">
-                <img id="imgPC" src="<?= base_url() ?>Plantilla/img/principales_clientes2.png " alt=" ">
-            </div>
+    <div class="row">
+        <div class="col s6">
+            <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/TMICA_2.jpeg">
         </div>
-        <!--div class="col s6 " style="align-items: right; ">
-            <img src="img/Clientes 2.png " alt=" ">
-        </div-->
+
+        <div class="col s6">
+            <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/TMICA_3.jpeg">
+        </div>
+
     </div>
+
+    <div class="row">
+        <div class="col s6">
+            <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/TMICA_4.jpeg">
+        </div>
+
+        <div class="col s6">
+            <img class="LVDNC" src="<?= base_url() ?>Plantilla/img/TMICA_5.jpeg">
+        </div>
+
+    </div>
+
 
     <footer class="page-footer black ">
         <div class="container ">
@@ -179,10 +208,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         $(".dropdown-button ").dropdown({
             hover: true
         });
-
-        /**$(document).ready(function() {
-            $('.carousel').carousel();
-        });*/
 
         $('.parallax').parallax();
 
